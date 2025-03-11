@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width", intitial-scale="1.0"/>
+        <title>BasicWebApp1</title>
+    </head>
+
+    
+    <body>
+        <div class="text-center">
+            <h1 class="display-4">Wild Child Makes a Video For Their Song: Crazy Bird</h1>
+            <br />
+            <br />
+
+            <p> The video is quite eccentric and could make a person question what they're watching.</p>
+            <p>No bananas were harmed in this video.</p>
+            <br />
+                <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/87PZgweY-gY">
+                </iframe>
+        </div>
+
+        <p> 
+            <button onclick="moveBanana()"> Click Me</button>
+        </p>
+
+        <div id="bananaContainer">
+            <div id="myAnimation">
+                <img src="Images/banana1.png" width="100" height="100" alt="banana image" />
+            </div>
+                
+        </div>
+
+
+
+    </body>
+
+
+</html>
