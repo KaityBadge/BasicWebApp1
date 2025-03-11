@@ -4,8 +4,7 @@
 // Write your JavaScript code.
 
 
-//function that creates animation to make the banana image spin across the page from left to right
-
+//function that creates animation to make the banana image spin from top corner down to the video section
 
 var id = null;
 function moveBanana() {
